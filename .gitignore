@@ -1,0 +1,7 @@
+__pycache__
+.venv/
+logs/
+test.py
+test2.py
+test.py
+docker-image/

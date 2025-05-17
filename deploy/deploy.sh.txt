@@ -1,0 +1,14 @@
+#!/bin/bash
+LOGFILE=/app/scripts/deploy.log
+
+NAMESPACE_NAME=docker.abc.com/smalldb
+
+AUTOMATION_APP_REPO=automation
+AUTOMATION_APP_VERSION=latest
+
+
+echo "$(date) : [$AUTOMATION_APP_REPO] deployment is Started." >> $LOGFILE;
+sudo docker ps --filter status=exited -q | xargs docker rm
+sudo docker pull $NAMESPACE_NAME/$AUTOMATION_APP_REPO:$AUTOMATION_APP_VERSION
+sudo docker run -d -v /app/src/logs:/app/src/logs -v /app/src/cred:/app/src/cred -v /app/src/data:/app/data -v /app/src/conf:/app/src/conf $NAMESPACE_NAME/$AUTOMATION_APP_REPO:$AUTOMATION_APP_VERSION
+echo "$(date) : [$AUTOMATION_APP_REPO] deployment is Completed." >> $LOGFILE;

@@ -1,0 +1,22 @@
+<db>
+<collections db_name="database1">
+    <collection collection_no="1" collection_name="collection1" id_field_name="_id" ts_field_name="updatedAt" collection_status="Pending" data_retention_days="90">collection1</collection>
+</collections>
+<collections db_name="database2">
+    <collection collection_no="1" collection_name="collection2" id_field_name="_id" ts_field_name="updatedAt" collection_status="Pending" data_retention_days="90">collection2</collection>
+    <collection collection_no="2" collection_name="collection3" id_field_name="_id" ts_field_name="updatedAt" collection_status="Pending" data_retention_days="90">collection3</collection>
+    <collection collection_no="3" collection_name="collection4" id_field_name="_id" ts_field_name="updatedAt" collection_status="Pending" data_retention_days="90">collection4</collection>
+    <collection collection_no="4" collection_name="collection5" id_field_name="_id" ts_field_name="updatedAt" collection_status="Pending" data_retention_days="90">collection5</collection>
+</collections>
+<collections db_name="database3">
+    <collection collection_no="1" collection_name="collection6" id_field_name="_id" ts_field_name="updatedAt" collection_status="Pending" data_retention_days="90">collection6</collection>
+    <collection collection_no="2" collection_name="collection7" id_field_name="_id" ts_field_name="updatedAt" collection_status="Pending" data_retention_days="90">collection7</collection>
+    <collection collection_no="3" collection_name="collection8" id_field_name="_id" ts_field_name="updatedAt" collection_status="Pending" data_retention_days="90">collection8</collection>
+</collections>
+<collections db_name="database4">
+    <collection collection_no="1" collection_name="collection9" id_field_name="_id" ts_field_name="updatedAt" collection_status="Pending" data_retention_days="90">collection9</collection>
+</collections>
+<collections db_name="database5">
+    <collection collection_no="1" collection_name="collection10" id_field_name="_id" ts_field_name="updatedAt" collection_status="Pending" data_retention_days="30">collection10</collection>
+</collections>
+</db>
