@@ -26,6 +26,6 @@
 <p>Note: It is system generated email. No need to reply it.</p>
 <p>&nbsp;</p>
 <p><strong>Regards</strong></p>
-<p><strong>Data Platform</strong></p>
-<p><strong>TechnoNext</strong></p>
+<p><strong>DBA Team</strong></p>
+<p><strong>ABC Company</strong></p>
 <p><strong>&nbsp;</strong></p>
